@@ -1,0 +1,16 @@
+name: cryb
+version: 0.1.0
+
+authors:
+  - tira <t1ra@protonmail.com>
+
+targets:
+  cryb:
+    main: src/cryb.cr
+
+dependencies:
+  discordcr:
+    github: discordcr/discordcr
+    branch: master
+
+license: MIT
